@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/scrollview.dart';
 import 'package:flutter_app/table.dart';
 
+import 'caculate.dart';
 import 'dismissible.dart';
 import 'draggable.dart';
 import 'drawer.dart';
@@ -15,7 +16,7 @@ import 'navigator.dart';
 import 'rose.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(Caculator());
 }
 
 class MyApp extends StatelessWidget {
