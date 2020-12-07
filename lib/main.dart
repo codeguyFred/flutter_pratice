@@ -8,7 +8,10 @@ import 'package:flutter_app/table.dart';
 import 'dismissible.dart';
 import 'draggable.dart';
 import 'drawer.dart';
+import 'fbuilder.dart';
 import 'flow.dart';
+import 'hero.dart';
+import 'navigator.dart';
 import 'rose.dart';
 
 void main() {
@@ -71,7 +74,7 @@ class _Contain extends State<ContainPage> {
         break;
 
       case 3:
-        _currBody = DemoFlowPopMenu();
+        _currBody = MyScrollView();
         break;
     }
     setState(() {
