@@ -16,7 +16,7 @@ import 'navigator.dart';
 import 'rose.dart';
 
 void main() {
-  runApp(Caculator());
+  runApp(CaculatorPlus());
 }
 
 class MyApp extends StatelessWidget {

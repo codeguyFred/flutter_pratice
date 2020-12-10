@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class CaculatorPlus extends StatefulWidget {
+class Caculator extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
